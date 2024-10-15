@@ -1,0 +1,11 @@
+import numpy as np
+print("hello world")
+a=np.array([[1,2,3,4,5,6],[5,6,7,8,9,10]],dtype='int8')
+print(a.ndim)
+print(a.shape)
+print(a.itemsize)
+print(a[1,2])
+print(a[:,0])
+print(a)
+b=np.array([50, 45, 60, 25, 30])
+print(np.percentile(b,30))
